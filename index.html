@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Site</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <div class="class_html">
+
+        <header>
+            <h1 class="resumo">Resumo HTML</h1>
+            <nav>
+                <ul class="list">
+                    <li class="info"><a class="info_link" href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank" title="Sobre o HTML">Sobre</a></li>
+                    <li class="info"><a class="info_link" href="https://www.w3schools.com/tags/default.asp" target="_blank" title="Sobre as TAGS HTML">Tags</a></li>
+                    <li class="info"><a class="info_link" href="https://www.bing.com/videos/search?q=videos+html&adlt=strict&view=detail&mid=6DD935A43626BD9C88E56DD935A43626BD9C88E5&&FORM=VRDGAR&ru=%2Fvideos%2Fsearch%3Fq%3Dvideos%2Bhtml%26FORM%3DHDRSC4%26adlt%3Dstrict&adlt=strict" target="_blank" title="Video sobre Semântica HTML">Vídeos</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+
+            <section>
+                <h2>Estrutura de uma Página</h2>
+
+                <div>
+                    <p><strong>HTML:</strong> Indica que qualquer coisa dentro dela é código HTML;</p>
+                    <p><strong>HEAD:</strong> Possui dados da página e não serão exibidos na janela principal;</p>
+                    <p><strong>TITLE:</strong> É o título da página que será mostrado no navegador;</p>
+                    <p><strong>BODY:</strong> Contempla o que será mostrado na janela principal do browser.</p>
+                </div>
+            </section>
+
+            <section>
+                <div class="title-container">
+                    <img 
+                        src="https://logodownload.org/wp-content/uploads/2016/10/html5-logo-8.png" 
+                        alt="Foto HTML"
+                        class="img" 
+                    />
+                    <h2>Estrutura HTML:</h2>
+                </div>
+
+                <ol>
+                    <li>HTML é uma linguagem de marcação (estruturação) de texto usada em páginas web;</li>
+                    <li>Códigos são inseridos nas palavras que queremos que apareçam na página desenvolvida;</li>
+                    <li>Esses códigos são chamados de TAGs: onde geralmente há a de abertura e a de fechamento;</li>
+                    <li>O HTML informa ao browser o que deverá ser feito com os elementos que estão entre as TAGs.</li>
+                </ol>
+            </section>
+
+            <section>
+                <h2>Tipos de Marcação de Texto</h2>
+                <div>
+                    <p><strong class="par">Marcação Estrutural:</strong> Impacta na estrutura (apresentação) da página visualmente;</p>
+                    <p><strong class="imp">Marcação Semântica:</strong> Não afeta a estrutura da página visualmente, mas adiciona informações extras.</p>
+                </div>
+            </section>
+
+            <section>
+                <h2>Trabalhando com Títulos</h2>
+                <div>
+                    <p>Existem 6 níveis de títulos (tamanhos) pré definidos para usarmos em nossas páginas web;</p>
+                    <p>Os níveis variam de <span class="par"> &lt;h1&gt; e &lt;h6&gt;</span>, sendo o <span class="par">&lt;h1&gt; o maior</span> deles e o <span class="par">&lt;h6&gt; o menor</span>;</p>
+                    <p>O tamanho da fonte pode variar um pouco de browser para browser.</p>
+                </div>
+            </section>
+            <section>
+                <h2>Adicionando Parágrafos</h2>
+                <div>
+                    <ol>
+                        <li>Usar parágrafos é importante para fluidez do texto;</li>
+                        <li>Cada parágrafo deve estar entre as TAGs: <span class="par"> &lt;p&gt; e &lt;/p&gt;</span>;</li>
+                        <li>O browser por padrão os exibe com espaço entre eles.</li>
+                    </ol>
+                </div>
+            </section>
+            <section>
+                <h2>Organizando Melhor as Ideias</h2>
+                <div>
+                    <ol>
+                        <li>O HTML possibilita criar listas para organizar as informações;</li>
+                        <li>Imagine, por exemplo, o passo a passo de uma receita de bolo;</li>
+                        <li>Ou até mesmo um checklist para fazer as compras no mercado;</li>
+                        <li>Em ambos os casos é necessário estruturar as informações.</li>
+                    </ol>
+                </div>
+            </section>
+            <section>
+                <h2>Lista Ordenadas</h2>
+                <div>
+                    <ol>
+                        <li>Os itens dessas listas são <i>númerados</i>;</li>
+                        <li>A sua criação se dá com a tag: <strong>&lt;ol&gt;</strong>;</li>
+                        <li>Cada item da lista é um elemento: <strong>&lt;li&gt;</strong>;</li>
+                        <li>O atributo <strong> type</strong>.</li>
+                    </ol>
+                </div>
+            </section>
+            <section>
+                <h2>Lista Não Ordenadas</h2>
+                <div>
+                    <ul>
+                        <li>Os itens da lista recebem marcadores;</li>
+                        <li>É criada através do uso da tag: <strong>&lt;ul&gt;</strong>;</li>
+                        <li>Cada item da lista é expresso por: <strong>&lt;li&gt;</strong>;</li>
+                        <li>Também pode usar o atributo <strong>type.</strong></li>
+                    </ul>
+                </div>
+            </section>
+            <section>
+                <h2>Lista Aninhadas</h2>
+                <div>
+                    <ol>
+                        <li>É possível colocar <i>uma lista dentro de outra;</i></li>
+                        <li>Basta <i>adicionar a lista dentro de um &lt;li&gt;</i></li>
+                        <li>Assim, o elemento se tornará uma lista;</li>
+                        <li>Haverá um recuo diferente da lista pai.</li>
+                    </ol>
+                </div>
+            </section>
+            <section>
+                <h2>Trabalhando com Links</h2>
+                <div>
+                    <ol>
+                        <li>O uso de links é considerado o principal recurso formador da web que conhecemos;</li>
+                        <li>É através deles que conseguimos navegar entre as milhões de páginas existentes na web;</li>
+                        <li>Os links podem ser criados para vários propósitos, por exemplo, <i>interligar um site a outro.</i></li>
+                    </ol>
+                </div>
+            </section>
+            <section>
+                <h2>Abrindo o link em uma nova janela!</h2>
+                <div>
+                    <ol>
+                        <li>As vezes não queremos que o usuário saia da nossa página ao abrir um link para outro site;</li>
+                        <li>Ele não será afetado pela abertura da nova janela;</li>
+                        <li>Esse comportamento é implementado através do atributo <strong class="par"> atributo target</strong> junto com o valor <strong class="par"> valor_blank.</strong></li>
+                    </ol>
+                </div>
+            </section>
+            <section>
+                <h2>Link entre Páginas</h2>
+                <div>
+                    <ol>
+                        <li>Interliga as páginas de um mesmo site;</li>
+                        <li>Deve-se indicar o nome do arquivo destino;</li>
+                        <li>Para isso é usado URLs relativas;</li>
+                        <li>São URLs abreviadas os URLs absolutos.</li>
+                    </ol>
+                </div>
+            </section>
+            <section>
+                <h2>Links de E-mail</h2>
+                <div>
+                    <ol>
+                        <li>Inicia o programa de e-mail do usuário para enviar uma mensagem;</li>
+                        <li>O valor do atributo href deverá conter:"mailton:exemplo@gmail.com";</li>
+                        <li>Esse tipo de link se parece com os demais com exceção da abertura do gerenciador de e-mail.</li>
+                    </ol>
+                </div>
+            </section>
+            <section>
+                <h2>Dicas sobre Imagens</h2>
+                <div>
+                    <ol>
+                        <li>As imagens podem ter direitos autorais <i>sempre confira;</i></li>
+                        <li>Crie uma pasta em seu site para mantê-las organizadas;</li>
+                        <li>Use os formatos mais comuns/tradicionais: jpeg, gif ou png;</li>
+                        <li>A maioria das telas trabalham no máximo a 72 pixels por polegada.</li>
+                    </ol>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <ol>
+                        <li>A imagem deve estar dentro de uma TAG do tipo <strong>figure;</strong></li>
+                        <li>A legenda também deve estar dentro da mesma TAG;</li>
+                        <li>A legenda é definida com base em uma TAG <strong>figcaption.</strong></li>
+                    </ol>
+                </div>
+            </section>
+            <section>
+                <h2>Trabalhando com Tabelas</h2>
+                <div>
+                    <ol>
+                        <li>Elas permitem mostrar dados em forma de grid <i>(linhas e colunas);</i></li>
+                        <li>A tag <strong class="par">&lt;table&gt;</strong> é usada para indicar a definição da tabela;</li>
+                        <li>Cada linha ou registro da tabela é representado pela TAG: <strong class="par">&lt;tr&gt;</strong>;</li>
+                        <li>Já as suas células/colunas são expressas pela TAG: <strong class="par">&lt;td&gt;</strong>;</li>
+                    </ol>
+                </div>
+            </section>
+            <section>
+                <h2>Cabeçalho das Tabelas</h2>
+                <div>
+                    <ol>
+                        <li>Para identificar o <strong> cabeçalho de uma tabela</strong> usamos a TAG: <strong class="par">&lt;th&gt;</strong>;</li>
+                        <li>Podemos usá-la para <strong> identificar linhas ou colunas</strong> ao invés de &lt;td&gt;;</li>
+                        <li>Melhora a acessibilidade de sua página para leitores de tela.</li>
+                    </ol>
+                </div>
+            </section>
+            <section>
+                <h2>Mesclando Colunas da Tabela</h2>
+                <div>
+                    <ol>
+                        <li>Assim como no Excel é possível <strong> mesclar as colunas de uma tabela;</strong></li>
+                        <li>Para isso é utilizado o atributo <strong class="par"> colspan</strong> dentro de uma célula;</li>
+                        <li>O <strong class="par"> valor de colspan </strong> deverá ser o <strong> tamanho da célula desejada;</strong></li>
+                        <li>O valor será sempre <u> menor ou igual</u> ao nº de colunas da tabela.</li>
+                    </ol>
+                </div>
+            </section>
+            <section>
+                <h2>Mesclando Linhas da Tabela</h2>
+                <div>
+                    <ol>
+                        <li>Enquanto o colspan mescla colunas, o <strong class="par"> rowspan </strong> <strong> mescla linhas;</strong></li>
+                        <li>O <strong> seu valor </strong> refere-se <i> quantidade de linhas que serão mescladas;</i></li>
+                        <li>Esse valor deve ser <u> menor ou igual</u> ao número de linhas da tabela;</li>
+                        <li>O rowspan também é usado como atributo nas TAGs: &lt;th&gt; ou &lt;td&gt;.</li>
+                    </ol>
+                </div>
+            </section>
+            <p class="footer-name text">&copy;Nishimura</p>
+        </main>
+        
+    </div>
+    
+</body>
+</html>

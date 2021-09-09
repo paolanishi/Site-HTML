@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+}
+
+.class_html{
+    background: url("https://trello-backgrounds.s3.amazonaws.com/SharedBackground/2397x1600/0df96caa8fd8835a6def59fbf073f58c/photo-1533090161767-e6ffed986c88.jpg") no-repeat left bottom;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+section
+{
+    margin: 2rem 0;
+}
+
+
+.par{
+    color: #f00;
+}
+
+li, p{
+    font: 400 16px 'Poppins', sans-serif;
+    list-style: none;
+    margin: 6px 1rem;
+}
+
+h2{
+    font: 400 23px 'Poppins', sans-serif;
+    margin: 2rem 0;
+}
+
+.section_html{
+    height: 9rem;
+    
+}
+.title-container
+{
+    display: flex;
+    align-items: center;
+}
+
+.img
+{
+    width: 22px;
+    height: 25px;
+    margin: 0 5px;
+}
+
+.imp{
+    color: blue;
+}
+
+.resumo{
+    text-align: center;
+    
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.info{
+    list-style: none;
+}
+
+.info_link{
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid purple;
+    padding: 6px;
+    
+}
+
+.resumo:hover{
+    color: royalblue;
+}
+
+.info_link:hover{
+    color: royalblue;
+}
+
+.footer-name
+{
+    font-size: 19px;
+    color: #000;
+    font-weight: bolder;
+    margin: 40px 0 0 0;
+    text-align: center;
+}
